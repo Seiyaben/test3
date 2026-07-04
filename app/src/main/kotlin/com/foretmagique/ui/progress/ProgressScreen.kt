@@ -3,6 +3,7 @@ package com.foretmagique.ui.progress
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.ExperimentalLayoutApi
 import androidx.compose.foundation.layout.FlowRow
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
@@ -28,6 +29,7 @@ import com.foretmagique.ui.components.StarBadge
 import com.foretmagique.ui.theme.ForestGentle
 import com.foretmagique.ui.theme.ForestLeafGreen
 
+@OptIn(ExperimentalLayoutApi::class)
 @Composable
 fun ProgressScreen(
     progressRepository: ProgressRepository,
